@@ -1,0 +1,42 @@
+http://slideshare.com/
+
+GET / HTTP/1.1
+Host: slideshare.com
+=> alamat URL slideshare
+------------------------------------------------------------------------------------
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko/20100101 Firefox/11.0
+=> Browser Client menggunakan Mozilla tipe 23.0
+-----------------------------------------------------------------------
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+=> Menerima data texs, aplication,xhtml + xml
+------------------------------------------------------------------------
+
+Accept-Language: en-us,en;q=0.5
+=> Menerima bahasa dari web  yang dituju yaitu menggunakan bahasa united stated
+-------------------------------------------------------------------------------
+
+Accept-Encoding: gzip, deflate
+=> Menerima Encoding Gzip deflate
+---------------------------------
+
+Connection: keep-alive
+=> Koneksi yang bisa diakses
+----------------------------
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+=> konten tipe berupa aplikasi dan alamaturl itu berupa form
+-------------------------------------------------------------
+
+Location: htupa tp://www.slideshare.net/
+P3P: CP="OTI DSP COR CUR ADM DEV PSD IVD CONo OUR IND"
+Content-Length: 178n 
+Date: Mon, 30 Sep 2013 04:58:13 GMT
+X-Varnish: 563217926
+Age: 0
+Via: 1.1 varnish
+Connection: close
+Set-Cookie: SERVERID=w2; path=/
